@@ -47,7 +47,7 @@ const App = () => {
         {filter === "books" && showAddBook && <AddBook />}
         {filter === "authors" && showAddAuthor && <AddAuthor />}
       </div>
-      <h1 style={{ marginTop: "20px",marginBottom: "20px" }}>
+      <h1 style={{ marginTop: "20px" }}>
         {filter === "books" ? "📚 Book Collection" : "👩‍💼 Author Collection"}
       </h1>
       <div style={{ padding: "20px" }}>
