@@ -27,7 +27,7 @@ const App = () => {
               onChange={(e) => setFilter(e.target.value)}
               checked={filter === element.name}
             />
-            <label htmlFor={element.name}>{element.label}</label>
+            <label htmlFor={element.name}> {element.label}</label>
           </div>
         ))}
       </div>
