@@ -3,7 +3,10 @@ import { gql, useQuery } from "@apollo/client";
 const GET_AUTHORS = gql`
   query GetAuthor {
     books {
-      author
+      author {
+        id
+        name
+      }
     }
   }
 `;

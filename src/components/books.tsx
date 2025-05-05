@@ -5,7 +5,10 @@ const GET_BOOKS = gql`
     books {
       id
       title
-      author
+      author {
+        id
+        name
+      }
     }
   }
 `;
